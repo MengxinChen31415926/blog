@@ -1,7 +1,7 @@
 ## 一.subline使用必备技巧
 ## 二.安装emmet插件的subline使用必备技巧
-	### 1.html5框架扩展：首先新建文件，将文件保存为HTML文件，输入半角的！+tab键或Ctrl+E键（进行扩展），效果如下：
-	```javascript
+### 1.html5框架扩展：首先新建文件，将文件保存为HTML文件，输入半角的！+tab键或Ctrl+E键（进行扩展），效果如下：
+```javascript
 	<!DOCTYPE html>
 	<html lang="en">
 	<head>
@@ -9,7 +9,7 @@
 		<title>Document</title>
 	</head>
 	<body>
-	```
+```
 ### 2.各种标签简化输入(不需原始参数）扩展，通常输入标签名按tab键扩展即可。举两例如下：
 #### ①.段落扩展：输入p(扩展)，效果如下：
 ```javascript
@@ -59,9 +59,7 @@
 ```
 ### 8.文本的快速生成：举例如下
 #### ①.快速生成一段文本：输入lorem(扩展)，效果如下（（）内的同区域即同组，p和img位于不同区域因此被分组）：
-```
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque aspernatur inventore maiores aut, fugit blanditiis tempora, ipsam incidunt impedit sequi quisquam vero quis eum quia quos voluptas fugiat ab deserunt!
-```
 #### ②.快速生成一段指定单词数的文本：输入lorem+（指定单词数，此处为4）(扩展)，效果如下：
 ```javascript
 	Lorem ipsum dolor sit.
