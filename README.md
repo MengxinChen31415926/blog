@@ -1,8 +1,14 @@
-## subline使用必备技巧
-
-You can use the [editor on GitHub](https://github.com/MengxinChen31415926/blog/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 1、subline使用必备技巧
+*① html5框架扩展：输入半角的！+tab键或Ctrl+E键（进行扩展），效果如下：
+```javascript
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+```
 
 ### Markdown
 
