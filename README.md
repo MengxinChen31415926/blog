@@ -51,12 +51,11 @@
 ### 7.多个对象的快速生成：举例如下
 #### ①.生成含3列表项的无序列表的扩展：输入ul>li* 3(扩展)，效果如下：
 ```javascript
-	<div>
-		<p></p>
-	</div>
-	<div>
-		<img src="" alt="">
-	</div>
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
 ```
 ### 8.文本的快速生成：举例如下
 #### ①.快速生成一段文本：输入lorem(扩展)，效果如下（（）内的同区域即同组，p和img位于不同区域因此被分组）：
@@ -64,8 +63,9 @@
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque aspernatur inventore maiores aut, fugit blanditiis tempora, ipsam incidunt impedit sequi quisquam vero quis eum quia quos voluptas fugiat ab deserunt!
 ```
 #### ②.快速生成一段指定单词数的文本：输入lorem+（指定单词数，此处为4）(扩展)，效果如下：
-```javascript
+```javascript```
 	Lorem ipsum dolor sit.
+	```
 ```
 
 
