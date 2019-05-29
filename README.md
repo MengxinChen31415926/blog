@@ -24,7 +24,7 @@
 ```javascript
 	<p>段落内容</p>
 ```
-#### ②.带有初始主图地址的图像扩展：输入img[src=logo.jpg](扩展)，效果如下：
+#### ②.带有初始主图地址的图像扩展：输入 `img[src=logo.jpg] `(扩展)，效果如下：
 ```javascript
 	<img src="logo.jpg" alt="">
 ```
