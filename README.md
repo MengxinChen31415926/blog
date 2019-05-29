@@ -1,4 +1,13 @@
 ## 一.subline使用必备技巧
+### 1.显示比例放大：Ctrl+“+”；显示比例减小：Ctrl+“-”
+### 2.分屏：同时按下Alt+Ctrl+分屏数字键2分屏，按下Alt+Ctrl+分屏数字键1恢复单屏
+同时显示html和css文件：单屏Alt + Shift + 2 将视图设置成两列；
+打开一个css文件，Ctrl + Shift + 2，将其“赶”到右边那列。
+### 3.折叠与展开代码：光标靠近行号右下角，点击出现的三角形。
+### 4.Ctrl+D:选择一个单词；Ctrl+L:选择一行；Ctrl+A:全选；
+### 5.同时多处输入文本：按下Ctrl键的同时用光标多处选择输入文本处，选完松开Ctrl键，输入文本即可。
+### 6.代码缩进：Ctrl+]将所选代码向右缩进；Ctrl+[将所选代码向左缩进；
+### 7.调试（注意调试前先Ctrl+保存才能看到g改动的效果，否则浏览器仍打开上次保存时的文件）：空白处右键单击选择“在浏览器中打开”
 ## 二.安装emmet插件的subline使用必备技巧
 ### 1.html5框架扩展：首先新建文件，将文件保存为HTML文件，输入半角的！+tab键或Ctrl+E键（进行扩展），效果如下：
 ```javascript
@@ -49,7 +58,7 @@
 	</div>
 ```
 ### 7.多个对象的快速生成：举例如下
-#### ①.生成含3列表项的无序列表的扩展：输入ul>li* 3(扩展)，效果如下：
+#### ①.生成含3列表项的无序列表的扩展：输入ul>li* 3(扩展)，效果如下($个数代表强制输出数字位数）：
 ```javascript
 	<ul>
 		<li></li>
@@ -57,7 +66,22 @@
 		<li></li>
 	</ul>
 ```
-### 8.文本的快速生成：举例如下
+### 8.带有从1开头的有序数字的多个对象的快速生成：举例如下
+#### ①.快速生成10个有序数字的标题扩展：输入`h1{$$$}*10`(扩展)，效果如下：
+```javascript
+	<h1>001</h1>
+	<h1>002</h1>
+	<h1>003</h1>
+	<h1>004</h1>
+	<h1>005</h1>
+	<h1>006</h1>
+	<h1>007</h1>
+	<h1>008</h1>
+	<h1>009</h1>
+	<h1>010</h1>
+```
+
+### 9.文本的快速生成：举例如下
 #### ①.快速生成一段文本：输入lorem(扩展)，效果如下（（）内的同区域即同组，p和img位于不同区域因此被分组）：
 ```javascript
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque aspernatur inventore maiores aut, fugit blanditiis tempora, ipsam incidunt impedit sequi quisquam vero quis eum quia quos voluptas fugiat ab deserunt!
