@@ -89,7 +89,7 @@
 	<h1 id="haoren"></h1>
 ```
 ### 11.文本的快速生成：举例如下
-#### ①.快速生成一段文本：输入lorem(扩展)，效果如下（（）内的同区域即同组，p和img位于不同区域因此被分组）：
+#### ①.快速生成一段文本：输入lorem(扩展)，效果如下：
 ```javascript
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque aspernatur inventore maiores aut, fugit blanditiis tempora, ipsam incidunt impedit sequi quisquam vero quis eum quia quos voluptas fugiat ab deserunt!
 ```
