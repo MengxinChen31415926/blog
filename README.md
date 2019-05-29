@@ -58,7 +58,7 @@
 	</div>
 ```
 ### 7.多个对象的快速生成：举例如下
-#### ①.生成含3列表项的无序列表的扩展：输入ul>li* 3(扩展)，效果如下($个数代表强制输出数字位数）：
+#### ①.生成含3列表项的无序列表的扩展：输入ul>li* 3(扩展)，效果如下：
 ```javascript
 	<ul>
 		<li></li>
@@ -67,7 +67,7 @@
 	</ul>
 ```
 ### 8.带有从1开头的有序数字的多个对象的快速生成：举例如下
-#### ①.快速生成10个有序数字的标题扩展：输入`h1{$$$}*10`(扩展)，效果如下：
+#### ①.快速生成10个有序数字的标题扩展：输入`h1{$$$}*10`(扩展)，效果如下($个数代表强制输出数字位数）：
 ```javascript
 	<h1>001</h1>
 	<h1>002</h1>
@@ -80,8 +80,15 @@
 	<h1>009</h1>
 	<h1>010</h1>
 ```
-
-### 9.文本的快速生成：举例如下
+### 9.class的快速生成：举例如下，输入h1.haoren（扩展），效果如下：
+```javascript
+	<h1 class="haoren"></h1>
+```
+### 10.id的快速生成：举例如下:输入h1#haoren（扩展），效果如下：
+```javascript
+	<h1 id="haoren"></h1>
+```
+### 11.文本的快速生成：举例如下
 #### ①.快速生成一段文本：输入lorem(扩展)，效果如下（（）内的同区域即同组，p和img位于不同区域因此被分组）：
 ```javascript
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque aspernatur inventore maiores aut, fugit blanditiis tempora, ipsam incidunt impedit sequi quisquam vero quis eum quia quos voluptas fugiat ab deserunt!
